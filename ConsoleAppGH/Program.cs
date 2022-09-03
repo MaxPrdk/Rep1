@@ -1,0 +1,43 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp5
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.OutputEncoding = System.Text.Encoding.Default;
+            int size = 30;
+            int[] arr = new int[size];
+            int tmp = 0;
+
+            Random r = new Random();
+
+            for (int i = 0; i < size; i++)
+                arr[i] = r.Next(-50, 50);
+
+            foreach (int x in arr)
+                Console.Write(x + " ");
+
+            for (int i = 0; i < size; i++)
+                for (int j = i + 1; j < size; j++)
+                    if (arr[i] < arr[j])
+                    {
+                        tmp = arr[j];
+                        arr[j] = arr[i];
+                        arr[i] = tmp;
+                    }
+
+            Console.WriteLine();
+            foreach (int x in arr)
+                Console.Write(x + " ");
+
+            Console.ReadKey();
+
+        }
+    }
+}

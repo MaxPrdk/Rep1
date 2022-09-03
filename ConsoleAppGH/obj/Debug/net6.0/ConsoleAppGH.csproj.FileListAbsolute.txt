@@ -1,0 +1,15 @@
+C:\Users\maxpr\source\repos\ConsoleAppGH\ConsoleAppGH\bin\Debug\net6.0\ConsoleAppGH.exe
+C:\Users\maxpr\source\repos\ConsoleAppGH\ConsoleAppGH\bin\Debug\net6.0\ConsoleAppGH.deps.json
+C:\Users\maxpr\source\repos\ConsoleAppGH\ConsoleAppGH\bin\Debug\net6.0\ConsoleAppGH.runtimeconfig.json
+C:\Users\maxpr\source\repos\ConsoleAppGH\ConsoleAppGH\bin\Debug\net6.0\ConsoleAppGH.dll
+C:\Users\maxpr\source\repos\ConsoleAppGH\ConsoleAppGH\bin\Debug\net6.0\ConsoleAppGH.pdb
+C:\Users\maxpr\source\repos\ConsoleAppGH\ConsoleAppGH\obj\Debug\net6.0\ConsoleAppGH.csproj.AssemblyReference.cache
+C:\Users\maxpr\source\repos\ConsoleAppGH\ConsoleAppGH\obj\Debug\net6.0\ConsoleAppGH.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maxpr\source\repos\ConsoleAppGH\ConsoleAppGH\obj\Debug\net6.0\ConsoleAppGH.AssemblyInfoInputs.cache
+C:\Users\maxpr\source\repos\ConsoleAppGH\ConsoleAppGH\obj\Debug\net6.0\ConsoleAppGH.AssemblyInfo.cs
+C:\Users\maxpr\source\repos\ConsoleAppGH\ConsoleAppGH\obj\Debug\net6.0\ConsoleAppGH.csproj.CoreCompileInputs.cache
+C:\Users\maxpr\source\repos\ConsoleAppGH\ConsoleAppGH\obj\Debug\net6.0\ConsoleAppGH.dll
+C:\Users\maxpr\source\repos\ConsoleAppGH\ConsoleAppGH\obj\Debug\net6.0\refint\ConsoleAppGH.dll
+C:\Users\maxpr\source\repos\ConsoleAppGH\ConsoleAppGH\obj\Debug\net6.0\ConsoleAppGH.pdb
+C:\Users\maxpr\source\repos\ConsoleAppGH\ConsoleAppGH\obj\Debug\net6.0\ConsoleAppGH.genruntimeconfig.cache
+C:\Users\maxpr\source\repos\ConsoleAppGH\ConsoleAppGH\obj\Debug\net6.0\ref\ConsoleAppGH.dll
