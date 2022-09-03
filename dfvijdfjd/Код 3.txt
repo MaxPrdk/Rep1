@@ -1,0 +1,36 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+public class GFG
+{
+
+    public static void Main()
+    {
+        Console.OutputEncoding = System.Text.Encoding.Default;
+        int[] arr; 
+        arr = new int[20]; 
+        int even = 0;
+        Random rnd = new Random();
+
+        for (int x = 0; x < arr.Length; x++)
+        {
+            arr[x] = rnd.Next(-100,100);
+            Console.WriteLine("Елемент " + x + " = " + arr[x]);
+        }
+        
+        for (int x = 0; x < arr.Length; x++)
+        
+            if (x % 2 == 1)
+                even += arr[x];
+            
+
+        Console.WriteLine("Сума елементів масиву з непарними номерами   " + even);
+
+      
+    }
+}
+
+

@@ -1,0 +1,64 @@
+
+using System;
+using System.Collections.Generic;
+
+class GFG
+{
+
+    static int findLongestConseqSubseq(int[] arr,
+                                       int n)
+    {
+
+        
+        Array.Sort(arr);
+
+        int ans = 0, count = 0;
+
+        List<int> v = new List<int>();
+        v.Add(10);
+
+       
+        for (int i = 1; i < n; i++)
+        {
+            if (arr[i] != arr[i - 1])
+                v.Add(arr[i]);
+        }
+
+        
+        for (int i = 0; i < v.Count; i++)
+        {
+
+           
+            if (i > 0 && v[i] == v[i - 1] + 1)
+                count++;
+            else
+                count = 1;
+
+           
+            ans = Math.Max(ans, count);
+        }
+        return ans;
+    }
+
+    
+    static void Main()
+    {
+        Console.OutputEncoding = System.Text.Encoding.Default;
+        int[] arr;
+        arr = new int[100];
+        int n = arr.Length;
+
+        Random rnd = new Random();
+
+        for (int x = 0; x < arr.Length; x++)
+        {
+            arr[x] = rnd.Next(-50, 50);
+            Console.WriteLine("Елемент " + x + " = " + arr[x]);
+        }
+        
+        Console.WriteLine("Довжина і початкові індекси всіх неперервних послідовностей чисел : " +
+                          findLongestConseqSubseq(arr, n ));
+
+       
+    }
+}
