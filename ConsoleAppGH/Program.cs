@@ -18,7 +18,7 @@ namespace ConsoleApp5
             Random r = new Random();
 
             for (int i = 0; i < size; i++)
-                arr[i] = r.Next(-100, 100);
+                arr[i] = r.Next(-150, 150);
 
             foreach (int x in arr)
                 Console.Write(x + " ");
